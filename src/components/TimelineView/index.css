@@ -1,0 +1,15 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  text-align: center;
+}
+.chrono-container {
+  height: 80%;
+  width: 100%;
+}

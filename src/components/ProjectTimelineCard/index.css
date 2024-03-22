@@ -1,0 +1,13 @@
+.project-image {
+  width: 100%;
+}
+.project-name-and-duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.duration-container {
+  display: flex;
+  align-items: center;
+}

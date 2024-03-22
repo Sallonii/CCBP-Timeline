@@ -1,0 +1,39 @@
+.course-name-and-duration {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 567px) {
+  .course-name-and-duration {
+    flex-direction: column;
+  }
+}
+.duration {
+  color: #171f46;
+  font-weight: 700;
+  margin-left: 4px;
+}
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+.tags-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.tag-list {
+  list-style-type: none;
+  font-size: 7px;
+  font-weight: 800;
+
+  background-color: rgb(236, 233, 233);
+  color: #171f46;
+  margin: 3px;
+  text-align: center;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
